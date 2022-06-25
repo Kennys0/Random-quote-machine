@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quote-box{
+    padding: 25px 30px 25px 30px;
+    width: 430px;
+    min-height: 230px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divAuthor{
+    padding: 12px 0px 12px 0px;
+    width: 100%;
+    text-align: end;
+}
